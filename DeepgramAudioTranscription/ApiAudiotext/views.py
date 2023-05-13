@@ -21,3 +21,6 @@ class TranscriptionView(View):
             return JsonResponse({'error': str(e)}, status=400)
         response  = await self.transcriber.transcribe(audio_file.read(), minetype)
         return JsonResponse(response, status=200)
+    
+    def get(self, request):
+        return HttpResponse('Hello World')
