@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "6251be61-1df0-4314-bf0c-2d86a10c4d49",
+		"name": "DeepgramAudioTranscription",
+		"description": "Esta solicitud transcribe un archivo de audio. El archivo de audio debe ser enviado en la clave \"audio\" del cuerpo de la solicitud en formato multipart/form-data. La respuesta contiene la transcripción del audio en formato JSON.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18471992"
+	},
+	"item": [
+		{
+			"name": "Transcripción de audio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "audio",
+							"type": "file",
+							"src": "/home/martindev/Documentos/github/apiAudioText/files/audio.flac"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/transcription/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"transcription",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				},
+				"description": "Esta solicitud transcribe un archivo de audio. El archivo de audio debe ser enviado en la clave \"audio\" del cuerpo de la solicitud en formato multipart/form-data. La respuesta contiene la transcripción del audio en formato JSON."
+			},
+			"response": []
+		}
+	]
+}
