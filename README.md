@@ -38,13 +38,13 @@ Este es un proyecto de transcripción de audio que utiliza la API de Deepgram pa
 ```coverage report```
 
 ## Documentación
-La documentación de la API se encuentra en la carpeta docs. Incluye una descripción de las rutas disponibles y los parámetros que aceptan. La documentación fue generada con Postman.
+La documentación de la API se encuentra en la carpeta [docs](./DeepgramAudioTranscription/docs/). Incluye una descripción de las rutas disponibles y los parámetros que aceptan. La documentación fue generada con Postman.
 
 ## Pruebas con archivos de audio
 
 [Video de referencia](https://www.youtube.com/watch?v=Sm56AE9yOuA)
 
-En la carpeta `files` se encuentran varios archivos de audio que se pueden utilizar para probar la API de transcripción. Para realizar pruebas con alguno de estos archivos, se debe hacer lo siguiente:
+En la carpeta [files](./files/) se encuentran varios archivos de audio que se pueden utilizar para probar la API de transcripción. Para realizar pruebas con alguno de estos archivos, se debe hacer lo siguiente:
 1. Realizar una petición POST a la URL http://localhost:8000/api/transcription/ con el archivo de audio como parámetro. En Postman, esto se puede hacer a través de la sección "Body" y seleccionando "form-data" como tipo de dato. Luego, agregar una nueva entrada con la clave "audio" y seleccionar el archivo deseado como valor.
 2. Enviar la petición y esperar la respuesta.
 
