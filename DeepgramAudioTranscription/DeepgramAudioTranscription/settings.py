@@ -27,7 +27,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ApiAudiotext.apps.ApiaudiotextConfig',
-    'drf_yasg',
 ]
 
 MIDDLEWARE = [

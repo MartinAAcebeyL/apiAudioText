@@ -4,11 +4,13 @@ asgiref==3.6.0
 async-timeout==4.0.2
 attrs==23.1.0
 charset-normalizer==3.1.0
+coverage==7.2.5
 deepgram-sdk==2.4.0
 Django==4.2.1
 frozenlist==1.3.3
 idna==3.4
 multidict==6.0.4
+python-dotenv==1.0.0
 sqlparse==0.4.4
 websockets==11.0.3
 yarl==1.9.2
