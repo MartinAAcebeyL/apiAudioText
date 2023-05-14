@@ -54,4 +54,4 @@ O tambien puede usar curl, para hacer las peticiones. A continuación se muestra
 
 ```curl -X POST -F "audio=@/path/to/audio.wav" http://localhost:8000/transcription/```
 
-Donde /path/to/audio.wav es la ubicación del archivo audio.wav en el sistema de archivos local y http://localhost:8000/transcription/ es la URL de la API de transcripción. La respuesta de la API será un objeto JSON con la transcripción del archivo de audio.
+Donde /path/to/audio.wav es la ubicación del archivo audio.wav en el sistema de archivos local y http://localhost:8000/api/transcription/ es la URL de la API de transcripción. La respuesta de la API será un objeto JSON con la transcripción del archivo de audio.
