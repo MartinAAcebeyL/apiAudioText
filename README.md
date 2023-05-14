@@ -52,6 +52,6 @@ En la carpeta [files](./files/) se encuentran varios archivos de audio que se pu
 
 O tambien puede usar curl, para hacer las peticiones. A continuación se muestra un ejemplo de cómo realizar una prueba utilizando el archivo audio.wav
 
-```curl -X POST -F "audio=@/path/to/audio.wav" http://localhost:8000/transcription/```
+```curl -X POST -F "audio=@/path/to/audio.wav" http://localhost:8000/api/transcription/```
 
 Donde /path/to/audio.wav es la ubicación del archivo audio.wav en el sistema de archivos local y http://localhost:8000/api/transcription/ es la URL de la API de transcripción. La respuesta de la API será un objeto JSON con la transcripción del archivo de audio.
